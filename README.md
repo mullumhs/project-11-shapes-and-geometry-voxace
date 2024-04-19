@@ -1,26 +1,30 @@
-# Project 10: Animal Kingdom
+# Project: Shapes and Geometry
 
 Teacher: David Steedman
 
-This repository contains Project 10 for the MHS Software Engineering class. The focus of this project is to 
-introduce students to advanced object-oriented programming (OOP) concepts through a series of labs that build 
-towards a complex Animal Kingdom management system.
+This repository hosts the Shape & Geometry project for our class, aimed at developing students' skills in advanced object-oriented programming (OOP) concepts. Through this project, students will create a system that allows users to manage and interact with various geometric shapes.
 
-## Main Project: Lab Exercises
-- Lab 1: [`lab1.py`](lab1.py) - Introduce basic OOP concepts by creating a base class for an animal and derived 
-  classes for specific types of animals in an animal kingdom program.
-- Lab 2: [`lab2.py`](lab2.py) - Extend the Animal Kingdom program from Lab 1 to include polymorphism, 
-  demonstrating method overriding in derived classes.
-- Lab 3: [`lab3.py`](lab3.py) - Build a Zoo class to manage a collection of animals from the Animal Kingdom 
-  program, demonstrating managing objects and class interactions.
+## Project Structure
+- **`main.py`**: This file contains the user interface and system integration logic. It handles user input and coordinates the interaction between the user and the system.
+- **`shapes.py`**: Here, students will define the Shape base class along with derived classes such as Circle, Rectangle, and Triangle using OOP principles like inheritance and polymorphism.
 
-## Extension Task
-As an extension task, students are invited to develop a fully fledged zoo management application 
-based on the Animal and Zoo classes. This application should allow users to add, update, remove, feed, and 
-other such methods on all animals. The development should include a menu-driven interface and proper input 
-validation to ensure robustness.
+## Development Phases
+### Requirements / Specifications
+Students will start by identifying the user requirements and specifications based on the project brief provided by Wade. This phase involves understanding what functionalities the system must have and how these functionalities will be implemented technically.
+
+### Design
+In the design phase, students will conceptualize the class structure necessary for the project. They will create a base class called `Shape` and extend it with several derived classes, each representing a different geometric shape. The focus will be on applying OOP principles such as generalization, inheritance, and polymorphism.
+
+### Development
+During the development phase, students will write the actual code for both `main.py` and `shapes.py`. `main.py` will manage user interactions, while `shapes.py` will include the implementation of the Shape classes and their methods. Students will apply the OOP principles discussed in class to build a modular and maintainable system.
+
+### Testing and Debugging
+Testing involves writing test cases that ensure each part of the program works as expected. Students will perform unit testing for individual classes and methods in `shapes.py` and system testing to ensure that the entire application functions correctly when components interact in `main.py`.
+
+### Maintenance
+Maintenance focuses on ensuring the program remains understandable and manageable. Students are encouraged to use best practices such as making regular commits with clear messages, commenting their code effectively, and using descriptive names for classes, methods, and attributes.
 
 ## Learning Outcomes
-- Understand and apply fundamental and advanced concepts of object-oriented programming in Python.
-- Develop the ability to encapsulate data and functionality within classes effectively.
-- Gain practical experience in using classes and objects to solve problems and implement complex systems.
+- Master fundamental and advanced OOP concepts in Python.
+- Effectively encapsulate data within classes.
+- Design, implement, and maintain a complex software system using Python.
